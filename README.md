@@ -6,6 +6,13 @@ When you run the script, it first asks you to enter the total bit width and the 
 
 For file input, the program expects a plain text file with one floating-point number per line. For example, your input file might look like this:
 
+| Input Float | Description          |
+|-------------|----------------------|
+| 16.25       | Example positive number |
+| -3.5        | Example negative number |
+| 0.125       | Small fractional number |
+| 100.0       | Larger positive number  |
+
 
 Once you provide the file, the script converts each number into its fixed-point two's complement binary representation and writes the results to an output file you specify. If you want, you can also ask the script to write the converted-back floating-point numbers to another file so you can verify the conversion accuracy.
 
