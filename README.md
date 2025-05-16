@@ -27,6 +27,13 @@ Here’s a quick example conversion using 16 total bits and 8 fractional bits:
 
 And the same floats converted back from binary are:
 
+| Converted Back Floats |
+|----------------------|
+| 16.25                |
+| -3.5                 |
+| 0.125                |
+| 100.0                |
+
 
 This confirms the conversions are accurate.
 
