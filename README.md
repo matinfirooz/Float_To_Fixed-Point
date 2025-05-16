@@ -37,7 +37,12 @@ And the same floats converted back from binary are:
 
 This confirms the conversions are accurate.
 
-Keep in mind that the numbers you convert should fit within the range allowed by your chosen bit widths. The two's complement format handles signed numbers, and the fractional bits determine the precision by scaling the values with a factor of \(2^{\text{fractional bits}}\).
+Keep in mind that the numbers you convert should fit within the range allowed by your chosen bit widths. The two's complement format handles signed numbers, and the fractional bits determine the precision by scaling the values with a factor of:
+
+$$
+2^{\text{fractional bits}}
+$$
+
 
 The script does not require any external Python packages and works with standard Python 3 installations.
 
