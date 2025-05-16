@@ -40,7 +40,7 @@ This confirms the conversions are accurate.
 Keep in mind that the numbers you convert should fit within the range allowed by your chosen bit widths. The two's complement format handles signed numbers, and the fractional bits determine the precision by scaling the values with a factor of:
 
 $$
-2^( fractional bits )
+\(2^{\text{fractional bits}}\)
 $$
 
 
