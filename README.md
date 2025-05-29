@@ -49,6 +49,3 @@ The script does not require any external Python packages and works with standard
 If you want to try it interactively, you can also convert one number at a time by entering the number when prompted, and the script will show you the fixed-point binary representation along with the float value converted back for checking.
 
 Feel free to modify the bit widths depending on the precision and range you need.
-
-
-Author: Matin Firoozbakht
